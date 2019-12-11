@@ -1,7 +1,7 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { AppService } from './app.service';
-import { CommonService } from '@app/common';
 import { SearchDto } from 'libs/common/Dto/search.dto';
+import { CommonService } from '@app/common';
 
 @Controller()
 export class AppController {
